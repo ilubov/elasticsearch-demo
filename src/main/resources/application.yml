@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+spring:
+  elasticsearch:
+    rest:
+      uris: http://127.0.0.1:9200
+      read-timeout: 30s
+      connection-timeout: 5s
+
+swagger:
+  enabled: true
+  title: ilubov
+  description: ilubov Framework
+  version: v5.0.0
