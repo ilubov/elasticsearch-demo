@@ -8,6 +8,13 @@ spring:
       read-timeout: 30s
       connection-timeout: 5s
 
+es:
+  name-server: 127.0.0.1:9200
+  es-sql: /_nlpcn/sql
+  type: /_doc
+  index:
+    test: /test
+
 swagger:
   enabled: true
   title: ilubov
